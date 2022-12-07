@@ -1,11 +1,13 @@
 import * as React from "react";
-import { Card } from "../components/Card";
-import { CardContainer } from "../components/CardContainer";
+import { Card } from "../components/cards/Card";
+import { CardContainer } from "../components/cards/CardContainer";
+import { Layout } from "../components/layouts/Layout";
 
 const IndexPage = () => {
   return (
-    <main>
-      <h1>Gatsby/React Playground</h1>
+    <Layout>
+      <h1>✨ Gatsby/React Playground ✨</h1>
+      <h2>🃏 Cards Example</h2>
       <CardContainer>
         <Card
           title="Card 1"
@@ -16,7 +18,7 @@ const IndexPage = () => {
           description="This card is also unique, with its own description."
         />
       </CardContainer>
-    </main>
+    </Layout>
   );
 };
 

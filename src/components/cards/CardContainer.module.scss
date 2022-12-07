@@ -1,0 +1,10 @@
+.CardContainer {
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  border: 3px solid #eaeaea;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 16px;
+}
